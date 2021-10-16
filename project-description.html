@@ -86,19 +86,54 @@
 					<h2>Plans and Progress</h2>
 					<h3>Beginning</h3>
 					<p>
-
+						At the beginning of assignment two, each team member introduced their own project idea to the team members. At the beginning we chose the disaster warning system from Zhihao, but considering its implementation difficulty and the potential market competitiveness may be weaker, so at the last several days of assignment two, we decided to adopt Heran’s recipes sharing website that includes cooperation with local supermarket as ingredients suppliers. . Afterward, we collected fundamental metrics involving food from social perspectives, namely ration demand, nutrition supplement, healthy components, ingredients’ condition, etc. Besides, relative aspects relating are also researched, we pay attention to the eating style in modern society, the situation of pandemic and coronavirus, the demand for fitness, development of food industry, competition between food companies. Especially, we also define general demands of the user when they engage technological advances related to ration, so we can identify what users are likely to expect from the application or what the application can help them to complete necessary tasks. Decisions related to the mutual performance of our team are considered by all of the team members, together we choose open-resources, software, an application which is responsible for communication. Meeting outside of class is also an important part that we have successfully arranged since we formed a group, the timetable was created so that each member’s availability could be recorded and compared. Our team operates meetings efficiently depending on changes of weeks, for instance, we implement small meeting without adequacy of team members through a specific week before we have the ability to conduct the whole group meeting. 
 					</p>
+
 					<h3>Stages</h3>
 					<p>
+						We are now on the stage of the preparing and planning for the implementation of the application. Before the implementation, what we should consider is that the website requires a dataset that can store all of the user information and recipe details. The quantity of the data is extremely large so we have to borrow or buy the server to store those data. To build our own product, it is necessary to design a logo for website. Then we should consider the UX design of the website interface. The design should follow the principle of concise and clear appearance and substantial content. In the case of sufficient funds, we can consider hiring a professional designer to design the logo and website. After that, we should do the user research. As mentioned above, the user research is to define the major user groups, to analyse the preferences of different target user groups, and then make reasonable adjustments to the page interface and functional design of the website based on these. In case we are not able to do the user research now, we still carefully considered some feasible specific functions which are shown below. 
 
+						
+
+						The first function is an account system.  
+
+						After creating an account, users can log in, log out, and manage the profile. It would show a profile card where users can modify their personal information. Furthermore, users can have their account access more functions, such as posting recipes, managing recipes and writing a comment for a recipe. In addition, only registered users can save and collect their favourite recipes. This function would be the initial one during the implementation because we need to implement two ports - on the user side and the administrator side for better management of user information. Administrator users have more authority and permissions such as deleting inappropriate posts and comments for ordinary users. 
+
+						
+
+						The second function is the virtual kitchen and pantry pages.  
+
+						Users can go to the profile page to access the pantry function. On the pantry page, the user can input the ingredient’s name and select the ingredient. When the user clicks the search recipes button. The system will return related recipes. Registered users can record what ingredients users have in the real kitchen like ingredients so that the system can recommend a suitable recipe for those ingredients. This feature is mainly designed to solve the problem that users cannot go outside or do not want to go outside to buy ingredients. They are limited to having the remaining ingredients at home and would like to quickly cook, so as to find a suitable recipe through this application. Therefore, it is very convenient for users to find the proper recipes they want. 
+
+						
+
+						The third function is step-by-step instructions. 
+
+						This feature is the core feature. Each recipe will have detailed descriptions of ingredients and cooking methods. Besides, step-by-step instructions with pictures or videos will be applied to help the user to cook. Step-by-step instructions pages should contain three parts which are recipe information, ingredients and instructions. For the first part, this section will show the recipe photo and its author. All the related tags will be shown as well. If users want to see more similar recipes, they can click on the tag. The website will look through the database again and show the recipes containing this tag. The second part is ingredients, all the specific names and amounts will be shown. Besides, this part is designed to be a checkbox that users could check if they have those ingredients. For the last part is instructions, detailed steps will be offered with pictures or videos. Users could use those for references. Now there is a question: how can we get recipes? There are two ways to collect recipes for the application. The first way is to collect recipe information from google, we could add some basic typical recipes into the origin database such as making a chocolate cake and barbecue chicken. Then we will invite existing users to contribute and share their own recipes. If a recipe gets a number of likes, we will give a bonus to the writer and encourage more users to write their original recipes and share their cooking skills to make the website more active. 
+
+						
+
+						The fourth is buying ingredients online 
+
+						This function can help users buy missing ingredients online. The system connects Amazon Fresh which allows customers to purchase ingredients online. And the list of ingredients can also be saved to the album, which is convenient for users to view. 
+
+						Buy the missing ingredients with one click according to your favourite recipe. Users often feel worried because they can't buy suitable ingredients. For example, I would like to eat Tom yum which is a famous Thai food, but I do not have the required ingredients and do not know where I can get the ingredients I need. Making unfamiliar dishes is a very troublesome thing. I hope this feature will make things easier. Here we also have a question: how do online purchasing ingredients work? We still have two ways to implement that feature. First, as mentioned above, when the website has enough traffic, we will email Amazon Fresh to request cooperation and try to connect with Amazon Fresh to buy ingredients. Secondly, if the application has been successful and we have enough funds, we could hire couriers to deliver fresh ingredients from shops including Coles and so on. Of course, this service is only in Australia. We will also provide a map with locations of ingredients shops through google map API so that users know where to buy related ingredients. 
+
+						On a recipe page, the user has previously entered that there are ingredients at home, so the system will quickly display what ingredients the user lacks under this recipe. There is a one-click buy button under the lack of ingredients. Then the user needs to fill in the receiving address and receiving time. Pay the order by bank card or PayPal. After the payment is successful, the purchase request will be sent to the supermarket or Amazon, and the delivery clerk will deliver the ingredients to the door. 
+
+						
+
+						In addition, the group considered some other small features from our brainstorming. Users can like recipes and give comments to recipes. Our application could be a community that focuses on recipe sharing. Even though it might increase server pressure, allowing users to maintain communication can ensure the site’s activity and user stickiness. Additionally, in some recipes with allergens such as milk and peanut, there will be a warning on the page. This function allows users to know the recipe of health risks such as allergies and so on. Lastly, users can create collections to save a recipe and check saved recipes on the profile page. This function may also cause the server pressure but it can increase the frequency of user visiting the website. Taking further consideration, if technology permits, we can build an artificial intelligence backend to recommend relevant recipes to users according to their visit habits and preferences to increase the attractiveness of the website to users. This one might not be easy to implement but we can work towards this goal. Generally, the whole team made contributions to do the planning of the websites and all members gave their suggestions to gain reasonable and necessary functions. 
 					</p>
+
 					<h3>Dead ends</h3>
 					<p>
-
+						In the process, we encountered several dead ends, mainly about sources, thought restrictions, advertisements, and controversial situations. As we all know, the time spent in the development process, the money and the quality of the final results cannot be achieved at the same time. During the discussion, some people thought that some time could be sacrificed in order to save money and ensure product quality. Others think that products should be made as soon as possible to ensure that funds are invested in the operation and promotion of the website. Each team member has different abilities, thinking, and working styles, so we also have disputes related to the direction of our application development, and it is very time-consuming to resolve these controversial obstacles. 
 					</p>
+
 					<h3>Further plan</h3>
 					<p>
-
+						If we will handle the project to another team, what we can provide is the detailed project description and a fidelity prototype. The detailed project description includes not only the description but the user stories and the Acceptance Quiteria of each function, the priority of each function and the flow chart of the functions to show how did the group design and consider the project and to help the new group understand better about the project which let them can get started faster.  
 					</p>
 					
 					<h2>Roles</h2>
